@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+
+        
+        int weight, height, count;
+        count = 0;
+
+        Scanner sc = new Scanner(System.in);
+
+      
+        System.out.print("Enter weight: ");
+        weight = sc.nextInt();
+
+        System.out.print("Enter height: ");
+        height = sc.nextInt();
+
+        if(weight > 10 && height < 50) {
+            count = count + 1;
+        }
+
+        
+        System.out.println("Count is " + count);
+
+    }
+}
