@@ -6,7 +6,7 @@ A desktop Java Swing application that demonstrates layout management, button gro
 * **ButtonGroup implementation:** Ensures only one animal option can be selected at a time.
 * **Dynamic changes:** Swaps or updates options based on user selection.
 * **Clean UI:** Built using standard Java desktop components.
-*   Will also dispplay a message "You selected [aminal name]"
+*   Will also dispplay a message "You selected [animal name]"
 ## How to Run
 1. Ensure you have the Java Development Kit (JDK) installed.
 2. Compile the application:
