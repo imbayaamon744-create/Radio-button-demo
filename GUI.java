@@ -5,7 +5,7 @@ import java.awt.event.ActionListener;
 
 public class GUI extends JFrame implements ActionListener {
    
-    private JRadioButton birdButton, catButton, dogButton, rabbitButton, pigButton;
+    private JRadioButton  birdButton, catButton, dogButton, rabbitButton, pigButton;
     private ButtonGroup group;
     private JLabel imageLabel;
 
